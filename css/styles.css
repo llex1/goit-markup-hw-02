@@ -9,14 +9,12 @@
 
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--black-color);
     background-color: var(--white-color);
     letter-spacing: 0.03em;
 }
-
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -43,13 +41,9 @@ body {
 .nav a:hover {
     color: var(--main-color);
 }
-
-
 .nav a[class="active"] {
     color: var(--main-color);
 }
-
-
 .hero {
     background-color: var(--hero-color);
 }
@@ -68,7 +62,6 @@ body {
     background-color: var(--main-color);
     font-size: 16px;
     line-height: 30px;
-
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
