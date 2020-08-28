@@ -42,8 +42,14 @@ body {
 }
 .nav a:hover {
     color: var(--main-color);
-    cursor: pointer;   /* WTF!!!!  WHY GLOBAL????*/
 }
+
+
+.nav a[class="active"] {
+    color: var(--main-color);
+}
+
+
 .hero {
     background-color: var(--hero-color);
 }
